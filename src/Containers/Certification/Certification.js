@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react'
 import './Certification.css'
-import { GolangCertificate1, GolangCertificate2, ResponsiveWebDesignCertificate} from '../imports'
-import {GrPrevious, GrNext, GrClose} from 'react-icons/gr'
+import {GolangCertificate1, GolangCertificate2, ResponsiveWebDesignCertificate} from '../imports'
+import {GrClose} from 'react-icons/gr'
 
 function Certification() {
   const golangcert1 = useRef()
