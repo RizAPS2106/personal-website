@@ -1,0 +1,25 @@
+.contact {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.platforms {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.platform {
+    color: inherit;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.platform:hover {
+    color: #ff0000;
+    transform: scale(1.05);
+    transition: 0.3s;
+}

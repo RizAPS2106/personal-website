@@ -1,0 +1,32 @@
+.header {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .word-art {
+    width: 100%;
+}
+
+.header .intro {
+    width: 80%;
+    text-align: justify;
+}
+
+.header .intro-title {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.header .intro-subtitle {
+    font-size: 15px;
+    margin-top: 0;
+    padding-left: 3px;
+}
+
+.header .intro-text {
+    margin-top: 0;
+    padding-left: 3px;
+}

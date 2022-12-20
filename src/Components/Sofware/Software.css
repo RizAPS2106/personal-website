@@ -1,0 +1,45 @@
+.software .tools {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+.software .tool {
+    background-color: #fff;
+    position: relative;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.software .tool::before {
+    content: '';
+    padding: 10px;
+    background-color: #757575;
+    position: absolute;
+    top: 5px; 
+    right: 5px;
+}
+
+.software .tool.current::before {
+    background-color: #2c9735;
+}
+
+/*
+.software .tool.vs {
+    border: 1px solid #00bdf2;
+}
+
+.software .tool.sublime {
+    border: 1px solid #ff9900;
+} */
+
+.software .img-tool {
+    width: 100px;
+    margin: auto;
+}

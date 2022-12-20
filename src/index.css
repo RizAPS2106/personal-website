@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Rubik&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Rubik', sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 100px;
+}
+
+.title {
+  font-size: 35px;
+  text-align: center;
+}
+
+.title-line {
+  border-top: 3px solid #ff0000;;
+  width: 10%;
 }

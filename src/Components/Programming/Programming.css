@@ -1,0 +1,93 @@
+.programming .learn-languages {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 75px;
+}
+
+.programming .learn-language {
+    background-color: #fff;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.programming .learn-language::before {
+    content: '';
+    padding: 10px;
+    background-color: #757575;
+    position: absolute;
+    top: 5px; 
+    right: 5px;
+}
+
+.programming .learn-language.current::before {
+    background-color: #2c9735;
+}
+
+/* .programming .learn-language.php {
+    border: 1px solid #6182b7;
+}
+
+.programming .learn-language.go {
+    border: 1px solid #00aed8;
+}
+
+.programming .learn-language.html {
+    border: 1px solid #e54c21;
+}
+
+.programming .learn-language.css {
+    border: 1px solid #214ce5;
+}
+
+.programming .learn-language.js {
+    border: 1px solid #f7df1e;
+}
+
+.programming .learn-language.java {
+    border: 1px solid #598eb0;
+} */
+
+.programming .img-language {
+    width: 100px;
+    height: 100px;
+}
+
+.programming .framework-library {
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.programming .framework-library li {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.programming .framework-library li:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+.programming .framework-library li.current::after {
+    content: '';
+    padding: 3px;
+    background-color: #0b8000;
+    color: #fbfbfb;
+}
+
+.programming .img-framelib {
+    width: 30px;
+    height: 30px;
+}
