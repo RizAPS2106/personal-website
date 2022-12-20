@@ -55,13 +55,13 @@ function Certification() {
         </div>
 
         <div className='certificates-zoom' style={{display: zoom ? 'flex' : 'none'}}>
-            <div className='certicate-zoom' ref={golangcert1}>
+            <div className='certificate-zoom' ref={golangcert1}>
                 <img src={GolangCertificate1} className='img-certificate-zoom' alt='golang certificate' />
             </div>
-            <div className='certicate-zoom' ref={golangcert2}>
+            <div className='certificate-zoom' ref={golangcert2}>
                 <img src={GolangCertificate2} className='img-certificate-zoom' alt='golang certificate' />
             </div>
-            <div className='certicate-zoom' ref={responsivecert}>
+            <div className='certificate-zoom' ref={responsivecert}>
                 <img src={ResponsiveWebDesignCertificate} className='img-certificate-zoom' alt='responsive web design certificate' />
             </div>
 

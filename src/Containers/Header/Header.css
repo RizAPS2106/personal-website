@@ -30,3 +30,23 @@
     margin-top: 0;
     padding-left: 3px;
 }
+
+@media only screen and (max-width: 900px) {
+    .header {
+        height: auto;
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        height: auto;
+        grid-template-columns: 30% 70%;
+        margin-top: 200px;
+        padding: 10px;
+    }
+
+    .header .intro {
+        width: 95%;
+    }
+}

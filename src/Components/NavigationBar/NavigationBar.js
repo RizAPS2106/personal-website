@@ -20,7 +20,10 @@ function NavigationBar() {
     <>
         <nav id='navbar'>
             <div className='logo'>
-                <h1 className='logo-title'>Rizky Aditya</h1>
+                <div>
+                    <h1 className='logo-title'>Rizky Aditya</h1>
+                    <hr className='title-line' />
+                </div>
             </div>
             
             <div className='nav-links'>

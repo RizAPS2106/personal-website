@@ -91,3 +91,10 @@
     width: 30px;
     height: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+    .programming .learn-languages {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+}
