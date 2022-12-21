@@ -11,8 +11,8 @@ function Programming() {
           <div className='learn-language php current'>
             <img src={PHP} className='img-language' alt='php' />
             <ul className='framework-library'>
-              <li className='current'><img src={Laravel} className="img-framelib" /> Laravel</li>
-              <li><img src={CodeIgniter} className="img-framelib" /> CodeIgniter</li>
+              <li className='current'><img src={Laravel} className="img-framelib" alt='laravel' /> Laravel</li>
+              <li><img src={CodeIgniter} className="img-framelib" alt='codeigniter' /> CodeIgniter</li>
             </ul>
           </div>
 
@@ -23,22 +23,22 @@ function Programming() {
           <div className='learn-language css current'>
             <img src={Css} className='img-language' alt='css' />
             <ul className='framework-library'>
-              <li className='current'><img src={Bootstrap} className="img-framelib" /> Bootstrap</li>
+              <li className='current'><img src={Bootstrap} className="img-framelib" alt='bootstrap' /> Bootstrap</li>
             </ul>
           </div>
 
           <div className='learn-language js current'>
             <img src={Javascript} className='img-language' alt='php' />
             <ul className='framework-library'>
-              <li><img src={Jquery} className="img-framelib" /> Jquery</li>
-              <li className='current'><img src={ReactLogo} className="img-framelib" /> React</li>
+              <li><img src={Jquery} className="img-framelib" alt='jquery' /> Jquery</li>
+              <li className='current'><img src={ReactLogo} className="img-framelib" alt='react js' /> React</li>
             </ul>
           </div>
           
           <div className='learn-language go'>
             <img src={Go} className='img-language' alt='golang' />
             <ul className='framework-library'>
-              <li><img src={Gin} className="img-framelib" /> Gin</li>
+              <li><img src={Gin} className="img-framelib" alt='gin' /> Gin</li>
             </ul>
           </div>
 

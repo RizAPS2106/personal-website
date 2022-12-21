@@ -33,7 +33,7 @@ function NavigationBar() {
             </div>
         </nav>
 
-        <a href='#' className='topscroll' id='topscroll'><FaArrowUp size={25} /></a> 
+        <div className='topscroll' id='topscroll' onClick={() => {window.scrollTo(0, 0)}}><FaArrowUp size={25} /></div> 
     </>
   )
 }

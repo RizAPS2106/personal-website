@@ -10,7 +10,7 @@ nav {
 .logo {
     font-family: 'Fira Sans';
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -59,6 +59,7 @@ nav {
     color: #fbfbfb;
     padding: 10px 13px;
     z-index: 1;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 900px) {

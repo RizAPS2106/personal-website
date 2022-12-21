@@ -1,8 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Credit.css'
 
 function Credit() {
-  const [dateState, useDateState] = useState(new Date())
+  const [dateState, setDateState] = useState(new Date())
+
+  useEffect(()=>{
+    setDateState(new Date())
+  }, [])
 
   return (
     <div className='credit'>
