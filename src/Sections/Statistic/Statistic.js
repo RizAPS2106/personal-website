@@ -6,10 +6,10 @@ import Software from '../../Components/Software/Software'
 function Statistic() {
   return (
     <section className='statistic' id='statistic'>
-        <div className='container'>
-            <Programming />
-            <Software />
-        </div>
+      <div className='container'>
+        <Programming />
+        {/* <Software /> */}
+      </div>
     </section>
   )
 }
