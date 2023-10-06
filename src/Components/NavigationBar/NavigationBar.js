@@ -28,7 +28,7 @@ function NavigationBar() {
 
                 <div className='nav-links'>
                     <a href='#statistic' className='nav-link'>Code</a>
-                    <a href='#certification' className='nav-link'>Certification</a>
+                    <a href='#certification' className='nav-link'>Certificate</a>
                     <a href='#footer' className='nav-link'>Contact</a>
                 </div>
             </nav>
